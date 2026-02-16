@@ -43,7 +43,7 @@ The application implements a strict Role-Based Access Control mechanism:
 ## Installation & Setup
 Clone the repository:
 ```
-git clone https://github.com/your-user/med-reserve.git
+git clone https://github.com/mafius22/doctor-app.git
 ```
 Install dependencies in frontend and backend folders:
 ```
