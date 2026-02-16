@@ -50,20 +50,20 @@ Install dependencies in frontend and backend folders:
 npm install
 ```
 Configure environment variables (.env):
-- backend
-```
-PORT=4000
-CLIENT_ORIGIN=http://localhost:5173
-MONGO_URI=your_database_uri
-ACCESS_TOKEN_SECRET=my_access_secret
-REFRESH_TOKEN_SECRET=my_refresh_secret
-ACCESS_TOKEN_TTL_SECONDS=60
-REFRESH_TOKEN_TTL_DAYS=7
-```
-- frontend
-```
-VITE_API_URL=http://localhost:4000/api
-```
+- backend:
+  ```
+  PORT=4000
+  CLIENT_ORIGIN=http://localhost:5173
+  MONGO_URI=your_database_uri
+  ACCESS_TOKEN_SECRET=my_access_secret
+  REFRESH_TOKEN_SECRET=my_refresh_secret
+  ACCESS_TOKEN_TTL_SECONDS=60
+  REFRESH_TOKEN_TTL_DAYS=7
+  ```
+- frontend:
+  ```
+  VITE_API_URL=http://localhost:4000/api
+  ```
 
 Run the application in frontend and backend folders:
 ```
